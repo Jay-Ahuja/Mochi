@@ -9,7 +9,7 @@ import src.run;
 public class splitter extends run {
 
     public static void main(String[] args) {
-        return;
+        //main method
     }
 
     String[] splitOnKey(String String, String Splitter, int Limit) throws SplitterNotFoundException {
@@ -109,12 +109,5 @@ public class splitter extends run {
 
         return set;
     }
-
-    // type 0 = String[]
-    // type 1 = ArrayList[]
-    // type 2 = Hashmap[]
-    // type 3 = TreeMap[]
-    // type 4 = HashSet[]
-    // type 5 = TreeSet[]
 
 }
