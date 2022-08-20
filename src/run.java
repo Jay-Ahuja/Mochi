@@ -1,7 +1,7 @@
 package src;
 
 
-import src.readers.sorting;
+import src.filter.sorting;
 
 /**
  * @author Jay Ahuja

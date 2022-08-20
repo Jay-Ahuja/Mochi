@@ -1,4 +1,4 @@
-package src.readers;
+package src.filter;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -21,8 +21,8 @@ public class sorting extends run {
     }
 
     public String nameCase(String str) {
-        String[] names = null;
-        String namecase = null;
+        String[] names;
+        String namecase = "";
 
         if (str.contains(" ")) {
             names = str.split(" ");
