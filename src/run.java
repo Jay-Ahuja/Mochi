@@ -16,7 +16,6 @@ public class run {
     public static void main(String[] args) {
 
         sorting sort = new sorting();
-        // String names = "Atul Tina Keshu Nakku Komal Akash Leena Vipul Coco Priyanka Ram";
         // String[] sortednames = null;
         // sortednames = sort.sortZA(names, " ");
         // for (int i=0;i<sortednames.length;i++) {
