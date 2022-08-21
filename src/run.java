@@ -14,14 +14,12 @@ public class run {
     public static final String ANSI_RED = "\u001B[31m";
 
     public static void main(String[] args) {
-
         sorting sort = new sorting();
-        // String[] sortednames = null;
-        // sortednames = sort.sortZA(names, " ");
-        // for (int i=0;i<sortednames.length;i++) {
-        //     System.out.println(sortednames[i]);
-        // }
-        System.out.println(sort.reverse("Keshu"));
+        String[] names = {"KESHU AHUJA", "nakkku ahuja", "cOCo"};
+        String[] namesR = sort.nameCase(names);
+        for (String s : namesR) {
+            System.out.println(s);
+        }
     }
 
     public static class SplitterNotFoundException extends Exception {
